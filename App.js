@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from "react-native";
 import Bananas from "./src/components/Bananas";
 import LotsOfGreetings from "./src/components/LotsOfGreetings";
 import BlinkTextLabels from "./src/components/BlinkTextLabels";
+import LotsOfStyles from "./src/components/LotsOfStyles";
 
 export default class App extends React.Component {
   render() {
@@ -13,6 +14,7 @@ export default class App extends React.Component {
         <Bananas />
         <LotsOfGreetings />
         <BlinkTextLabels />
+        <LotsOfStyles />
       </View>
     );
   }
