@@ -1,16 +1,18 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { StyleSheet, Text, View } from "react-native";
 
-import Bananas from './src/components/Bananas';
-import LotsOfGreetings from './src/components/LotsOfGreetings';
+import Bananas from "./src/components/Bananas";
+import LotsOfGreetings from "./src/components/LotsOfGreetings";
+import BlinkTextLabels from "./src/components/BlinkTextLabels";
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
         <Text>Hello World!</Text>
-        <Bananas></Bananas>
-        <LotsOfGreetings></LotsOfGreetings>
+        <Bananas />
+        <LotsOfGreetings />
+        <BlinkTextLabels />
       </View>
     );
   }
@@ -19,8 +21,8 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center"
+  }
 });
