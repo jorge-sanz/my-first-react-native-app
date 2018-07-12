@@ -5,16 +5,14 @@ import Bananas from "./src/components/Bananas";
 import LotsOfGreetings from "./src/components/LotsOfGreetings";
 import BlinkTextLabels from "./src/components/BlinkTextLabels";
 import LotsOfStyles from "./src/components/LotsOfStyles";
+import FixedDimensionsBasics from "./src/components/FixedDimensionsBasics";
+import FlexDimensionsBasics from "./src/components/FlexDimensionsBasics";
 
 export default class App extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text>Hello World!</Text>
-        <Bananas />
-        <LotsOfGreetings />
-        <BlinkTextLabels />
-        <LotsOfStyles />
+      <View>
+        <FixedDimensionsBasics />
       </View>
     );
   }
