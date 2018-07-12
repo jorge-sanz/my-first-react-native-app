@@ -11,8 +11,8 @@ import FlexDimensionsBasics from "./src/components/FlexDimensionsBasics";
 export default class App extends React.Component {
   render() {
     return (
-      <View>
-        <FixedDimensionsBasics />
+      <View style={{flex: 1}}>
+        <FlexDimensionsBasics style={{ flex: 1 }} />
       </View>
     );
   }
